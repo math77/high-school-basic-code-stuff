@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body > div{
+    width: 600px;
+    background-color: #AEF;
+    border-radius: 10px;
+    /* margin: auto centraliza a div no centro*/
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+textarea{
+    display: block;
+    width: 90%;
+    border-radius: 10px;
+    height: 60px;
+    margin: auto;
+    resize: none;
+}
+
+textarea ~ p{
+    text-align: right;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #CCC;
+}
+
+#historico > p{
+    padding: 10px;
+    margin: 5px;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #FFF;
+}

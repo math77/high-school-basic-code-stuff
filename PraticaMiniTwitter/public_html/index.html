@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/twitter.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/twitter.js"></script>
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>Mini Twitter</title>
+    </head>
+    <body>      
+        <div>
+            <label for="msg">Mensagem:</label>
+            <textarea id="msg" onkeyup="contarCaract()"></textarea>
+            <p id="contador">0/20</p>
+            <button onclick="enviarMsg()">Enviar</button>
+            <div id="historico"></div>
+        </div>
+    </body>
+</html>
