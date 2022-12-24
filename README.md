@@ -1,4 +1,3 @@
-# Coisas do IF
+# High school very basic stuff
 
-Repositório para armazenar alguns exercícios e projetos que ainda possuo o código fonte feitos durante o período que estudei no IFRN-SC.
-
+Very basic things developed in my first years of programming studies during high school in Brazil.
